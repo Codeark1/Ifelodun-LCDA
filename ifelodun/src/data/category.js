@@ -125,7 +125,7 @@ export const categories = [
       id: 3,
       name: "Health",
       slug: "health",
-      coverImage: "/images/health/support/61.jpg",
+      coverImage: "/images/health/insurance/insure4.jpg",
       subCategories: [
         {
           key: "Health Support",
@@ -298,7 +298,7 @@ export const categories = [
       id: 6,
       slug:"Socials",
       name: "Socials and Welfare",
-      coverImage: "/images/health.jpg",
+      coverImage: "/images/socials/periodic/EMN.jpg",
       subCategories: [
         {
           key: "Periodic Distilation of water",
@@ -398,7 +398,7 @@ export const categories = [
       id: 7,
       slug:"Sport",
       name: "Sport",
-      coverImage: "/images/health.jpg",
+      coverImage: "/images/sport/football/81.jpg",
       subCategories: [
         {
           key: "Inter Primary Schools Football Tournament",
@@ -429,53 +429,53 @@ export const categories = [
       ]
     },
 
-    {
-      id: 8,
-      slug:"Tourism",
-      name: "Tourism and Community Engagement",
-      coverImage: "/images/health.jpg",
-      subCategories: [
-        {
-          key: "Tourism and Community Engagement",
-          label: "Tourism and Community Engagement", 
-          images: [
-              { url: "/images/tourism/carol/carol1.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol2.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol3.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol4.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol5.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol6.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol7.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol8.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol9.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol10.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol11.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol12.jpg", label: "Tourism and Community Engagement" },
-              { url: "/images/tourism/carol/carol13.jpg", label: "Tourism and Community Engagement" },
+    // {
+    //   id: 8,
+    //   slug:"Tourism",
+    //   name: "Tourism and Community Engagement",
+    //   coverImage: "/images/tourism/fest/fest4",
+    //   subCategories: [
+    //     {
+    //       key: "Tourism and Community Engagement",
+    //       label: "Tourism and Community Engagement", 
+    //       images: [
+    //           { url: "/images/tourism/carol/carol1.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol2.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol3.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol4.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol5.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol6.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol7.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol8.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol9.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol10.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol11.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol12.jpg", label: "Tourism and Community Engagement" },
+    //           { url: "/images/tourism/carol/carol13.jpg", label: "Tourism and Community Engagement" },
              
-          ]
-        },
+    //       ]
+    //     },
 
-        {
-          key: "Eko Fest & Twin Festival",
-          label: "Eko Fest & Twin Festival", 
-          images: [
-              { url: "/images/tourism/fest/fest1.jpg", label: "Eko Fest & Twin Festival" },
-              { url: "/images/tourism/fest/fest2.jpg", label: "Eko Fest & Twin Festival" },
-              { url: "/images/tourism/fest/fest3.jpg", label: "Eko Fest & Twin Festival" },
-              { url: "/images/tourism/fest/fest4.jpg", label: "Eko Fest & Twin Festival" },
-              { url: "/images/tourism/fest/fest5.jpg", label: "Eko Fest & Twin Festival" },
-              { url: "/images/tourism/fest/fest6.jpg", label: "Eko Fest & Twin Festival" },
-              { url: "/images/tourism/fest/fest7.jpg", label: "Eko Fest & Twin Festival" },
-              { url: "/images/tourism/fest/fest8.jpg", label: "Eko Fest & Twin Festival" },
-              { url: "/images/tourism/fest/fest9.jpg", label: "Eko Fest & Twin Festival" },
-              { url: "/images/tourism/fest/fest10.jpg", label: "Eko Fest & Twin Festival" },
-              { url: "/images/tourism/fest/fest1.jpg", label: "Eko Fest & Twin Festival" },
+    //     {
+    //       key: "Eko Fest & Twin Festival",
+    //       label: "Eko Fest & Twin Festival", 
+    //       images: [
+    //           { url: "/images/tourism/fest/fest1.jpg", label: "Eko Fest & Twin Festival" },
+    //           { url: "/images/tourism/fest/fest2.jpg", label: "Eko Fest & Twin Festival" },
+    //           { url: "/images/tourism/fest/fest3.jpg", label: "Eko Fest & Twin Festival" },
+    //           { url: "/images/tourism/fest/fest4.jpg", label: "Eko Fest & Twin Festival" },
+    //           { url: "/images/tourism/fest/fest5.jpg", label: "Eko Fest & Twin Festival" },
+    //           { url: "/images/tourism/fest/fest6.jpg", label: "Eko Fest & Twin Festival" },
+    //           { url: "/images/tourism/fest/fest7.jpg", label: "Eko Fest & Twin Festival" },
+    //           { url: "/images/tourism/fest/fest8.jpg", label: "Eko Fest & Twin Festival" },
+    //           { url: "/images/tourism/fest/fest9.jpg", label: "Eko Fest & Twin Festival" },
+    //           { url: "/images/tourism/fest/fest10.jpg", label: "Eko Fest & Twin Festival" },
+    //           { url: "/images/tourism/fest/fest1.jpg", label: "Eko Fest & Twin Festival" },
           
            
              
-          ]
-        },
+    //       ]
+    //     },
   
 
 
@@ -490,8 +490,8 @@ export const categories = [
      
      
   
-      ]
-    },
+    //   ]
+    // },
 
 
     {
