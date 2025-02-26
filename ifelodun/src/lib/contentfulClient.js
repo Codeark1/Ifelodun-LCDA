@@ -3,7 +3,7 @@ import { createClient } from "contentful";
 // Ensure environment variables are set
 const space = process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID;
 const accessToken = process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN;
-const environment =   "master"; 
+const environment = process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT ; 
 const CONTENT_TYPE_ID = "ifelodun_blog";
 
 if (!space || !accessToken) {
