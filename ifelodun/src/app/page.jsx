@@ -57,7 +57,7 @@ const Page = () => {
     <Hero2/>
     <Hero3/>
     <Project/>
-    <Hero4/>
+    {/* <Hero4/> */}
 <Map/>
 
 
