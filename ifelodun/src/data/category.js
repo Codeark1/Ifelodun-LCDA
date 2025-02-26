@@ -429,76 +429,14 @@ export const categories = [
       ]
     },
 
-    // {
-    //   id: 8,
-    //   slug:"Tourism",
-    //   name: "Tourism and Community Engagement",
-    //   coverImage: "/images/tourism/fest/fest4",
-    //   subCategories: [
-    //     {
-    //       key: "Tourism and Community Engagement",
-    //       label: "Tourism and Community Engagement", 
-    //       images: [
-    //           { url: "/images/tourism/carol/carol1.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol2.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol3.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol4.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol5.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol6.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol7.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol8.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol9.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol10.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol11.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol12.jpg", label: "Tourism and Community Engagement" },
-    //           { url: "/images/tourism/carol/carol13.jpg", label: "Tourism and Community Engagement" },
-             
-    //       ]
-    //     },
-
-    //     {
-    //       key: "Eko Fest & Twin Festival",
-    //       label: "Eko Fest & Twin Festival", 
-    //       images: [
-    //           { url: "/images/tourism/fest/fest1.jpg", label: "Eko Fest & Twin Festival" },
-    //           { url: "/images/tourism/fest/fest2.jpg", label: "Eko Fest & Twin Festival" },
-    //           { url: "/images/tourism/fest/fest3.jpg", label: "Eko Fest & Twin Festival" },
-    //           { url: "/images/tourism/fest/fest4.jpg", label: "Eko Fest & Twin Festival" },
-    //           { url: "/images/tourism/fest/fest5.jpg", label: "Eko Fest & Twin Festival" },
-    //           { url: "/images/tourism/fest/fest6.jpg", label: "Eko Fest & Twin Festival" },
-    //           { url: "/images/tourism/fest/fest7.jpg", label: "Eko Fest & Twin Festival" },
-    //           { url: "/images/tourism/fest/fest8.jpg", label: "Eko Fest & Twin Festival" },
-    //           { url: "/images/tourism/fest/fest9.jpg", label: "Eko Fest & Twin Festival" },
-    //           { url: "/images/tourism/fest/fest10.jpg", label: "Eko Fest & Twin Festival" },
-    //           { url: "/images/tourism/fest/fest1.jpg", label: "Eko Fest & Twin Festival" },
-          
-           
-             
-    //       ]
-    //     },
-  
-
-
-
-
-    
-
-
-
-
-
-     
-     
-  
-    //   ]
-    // },
+   
 
 
     {
       id: 9,
+      coverImage: "/images/tourism/carol/carol13.jpg",
       slug:"Tourism",
       name: "Tourism and Community Engagement",
-      coverImage: "/images/health.jpg",
       subCategories: [
         {
           key: "Tourism and Community Engagement",
