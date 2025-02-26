@@ -125,7 +125,7 @@ export const categories = [
       id: 3,
       name: "Health",
       slug: "health",
-      coverImage: "/images/health.jpg",
+      coverImage: "/images/health/support/61.jpg",
       subCategories: [
         {
           key: "Health Support",
