@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
-
 export default async function BlogPage() {
   const posts = await getBlogPosts();
 
@@ -21,28 +20,29 @@ export default async function BlogPage() {
 
           return (
             <li key={sys.id} className="border-b pb-6">
-           
-              {post.fields.image && post.fields.image[0]?.fields?.file?.url ? (
-  <Image 
-    src={`https:${post.fields.image[0].fields.file.url}`} 
-    alt={post.fields.title || "Blog Image"} 
-    width={600} 
-    height={400} 
-    priority 
-  />
-) : (
-  <p>No image available</p>
-)}
-
+              {/* Blog Image */}
+              {image && image[0]?.url ? (
+                <Image 
+                  src={`https:${image[0].url}`} 
+                  alt={title || "Blog Image"} 
+                  width={600} 
+                  height={400} 
+                  priority 
+                />
+              ) : (
+                <p>No image available</p>
+              )}
 
               {/* Blog Title & Link */}
               <Link href={`/blog/${slug}`} className="text-xl font-semibold text-blue-600 hover:underline">
-                {typeof title === 'string' ? title : "Untitled Post"}
+                {typeof title === "string" ? title : "Untitled Post"}
               </Link>
 
               {/* Blog Content */}
               <div className="mt-2 text-gray-700">
-                {content ? documentToReactComponents(content) : <p>No content available.</p>}
+                {content && typeof content === "object"
+                  ? documentToReactComponents(content)
+                  : <p>No content available.</p>}
               </div>
             </li>
           );

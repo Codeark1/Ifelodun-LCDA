@@ -5,6 +5,10 @@ import Image from "next/image";
 import { format } from "date-fns";
 
 export default async function BlogPostPage({ params }) {
+  if (!params || !params.slug) {
+    return notFound();
+  }
+
   const { slug } = params;
   const post = await getBlogPostBySlug(slug);
 
@@ -33,12 +37,12 @@ export default async function BlogPostPage({ params }) {
           {featuredImages.map((image, index) => (
             <Image
               key={index}
-              src={`https:${image.fields.file.url}`}
-              alt={image.fields.title || `Image ${index + 1}`}
+              src={`https:${image.url}`}
+              alt={image.title || `Image ${index + 1}`}
               width={800}
               height={500}
               className="rounded-lg shadow-md"
-              priority={index === 0} // Prioritize the first image
+              priority={index === 0} 
             />
           ))}
         </div>
@@ -46,7 +50,9 @@ export default async function BlogPostPage({ params }) {
 
       {/* Blog Content */}
       <section className="prose prose-lg max-w-none">
-        {documentToReactComponents(content)}
+        {content && typeof content === "object"
+          ? documentToReactComponents(content)
+          : <p>No content available.</p>}
       </section>
     </article>
   );
