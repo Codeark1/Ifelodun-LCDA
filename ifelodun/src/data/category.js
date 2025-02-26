@@ -225,7 +225,7 @@ export const categories = [
       id: 5,
       slug:"Acquisition",
       name: "Skill Acquisition and Empowerment",
-      coverImage: "/images/health.jpg",
+      coverImage: "/images/skillAcquisiton/OkeMegaEmpowerment/64.jpg",
       subCategories: [
         {
           key: "Skill Acquisition and Empowerment",
