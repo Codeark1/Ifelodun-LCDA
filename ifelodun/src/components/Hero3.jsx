@@ -15,8 +15,8 @@ const Hero3 = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">Meet Our Team</h2>
-        <p className="text-gray-600 text-base md:text-lg mt-3 max-w-2xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-green-600">Meet Our Team</h2>
+        <p className="text-green-00 text-base md:text-lg mt-3 max-w-2xl mx-auto">
           A group of passionate professionals driven by excellence, creativity, 
           and a commitment to delivering the best.
         </p>
@@ -31,7 +31,7 @@ const Hero3 = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: categoryIndex * 0.3 }}
         >
-          <h1 className="text-2xl font-semibold mb-8 text-gray-800">{category.category}</h1>
+          <h1 className="text-2xl font-semibold mb-8 text-green-600">{category.category}</h1>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 lg:gap-10">
             {category.members.slice(0, 3).map((member, memberIndex) => (

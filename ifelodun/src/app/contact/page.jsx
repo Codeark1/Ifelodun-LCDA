@@ -7,7 +7,7 @@ const ContactPage = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
     const data = Object.fromEntries(formData.entries());
-    console.log("Form values:", data);
+    // console.log("Form values:", data);
   };
 
   return (

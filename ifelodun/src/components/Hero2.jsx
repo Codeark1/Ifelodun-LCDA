@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { councilData } from "../data/councilData";
+import { CheckCheckIcon } from "lucide-react";
 
 const CouncilWelcome = () => {
   return (
@@ -54,14 +55,14 @@ const CouncilWelcome = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                ✅ <span>{item}</span>
+                <CheckCheckIcon color="green" /> <span>{item}</span>
               </motion.li>
             ))}
           </ul>
 
           {/* Read More Button */}
           <motion.button 
-            className="mt-6 px-6 py-2 bg-green-900 text-white font-medium font-sans rounded-md hover:bg-[#0F1E50] transition"
+            className="mt-6 px-6 py-2 bg-green-900 text-white font-medium font-sans rounded-md hover:bg-green-700 transition"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -77,11 +78,12 @@ const CouncilWelcome = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        <h2 className="text-2xl font-bold font-sans text-green-700">
+        <h2 className="text-2xl font-bold font-sans text-green-700 mb-8">
           Ifelodun’s Growth Story
         </h2>
 
-        <div className="mt-4 flex justify-center">
+<div className=" grid grid-cols-2">
+<div className="mt-4 flex justify-center">
           <motion.video
             className="w-full md:w-1/2 rounded-lg p-2 sm:p-1 shadow-md"
             controls
@@ -96,6 +98,32 @@ const CouncilWelcome = () => {
             Your browser does not support the video tag.
           </motion.video>
         </div>
+
+        <div className=" mt-4 flex justify-center">
+        <motion.video
+            className="w-full md:w-1/2 rounded-lg p-2 sm:p-1 shadow-md"
+            controls
+            preload="metadata" 
+            playsInline 
+            poster="/images/chairman2.jpg"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+          >
+            <source src="/images/bg-video2.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </motion.video> 
+        </div>
+</div>
+
+
+
+
+
+
+
+
+        
       </motion.div>
     </div>
   );

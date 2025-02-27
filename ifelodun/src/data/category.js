@@ -433,7 +433,7 @@ export const categories = [
 
 
     {
-      id: 9,
+      id: 8,
       coverImage: "/images/tourism/carol/carol13.jpg",
       slug:"Tourism",
       name: "Tourism and Community Engagement",
@@ -479,23 +479,332 @@ export const categories = [
              
           ]
         },
-  
 
-
-
-
-    
-
-
-
-
-
-     
-     
-  
       ]
     },
 
+
+    {
+      id: 9,
+      coverImage: "/images/works/Construction and Interlocking of Ogungbe Street/8A.jpg",
+      slug:"Works",
+      name: "Works",
+      subCategories: [
+        {
+          key: "Construction and Interlocking of Ogungbe Street",
+          label: "Construction and Interlocking of Ogungbe Street", 
+          images: [
+              { url: "/images/works/Construction and Interlocking of Ogungbe Street/8A.jpg", label: "Construction and Interlocking of Ogungbe Street" },    
+          ]
+        },
+
+        {
+          key: "Construction of Drainage and Interlocking of Coker Street",
+          label: "Construction of Drainage and Interlocking of Coker Street", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Coker Street/16.jpg", label: "Construction of Drainage and Interlocking of Coker Street" },
+         
+        
+             
+          ]
+        },
+
+
+        {
+          key: "Construction of Drainage and Interlocking of Edidi Street Edidi Lane and Adegboyega Street",
+          label: "Construction of Drainage and Interlocking of Edidi Street Edidi Lane and Adegboyega Street", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Edidi Street Edidi Lane and Adegboyega Street/1A.jpg", label: "Construction of Drainage and Interlocking of Edidi Street Edidi Lane and Adegboyega Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Edidi Street Edidi Lane and Adegboyega Street/1AA.jpg", label: "Construction of Drainage and Interlocking of Edidi Street Edidi Lane and Adegboyega Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Edidi Street Edidi Lane and Adegboyega Street/2AB.jpg", label: "Construction of Drainage and Interlocking of Edidi Street Edidi Lane and Adegboyega Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Edidi Street Edidi Lane and Adegboyega Street/2Aa.jpg", label: "Construction of Drainage and Interlocking of Edidi Street Edidi Lane and Adegboyega Street" },
+         
+        
+             
+          ]
+        },
   
   
-  ];
+
+
+        {
+          key: "Construction of Drainage and Interlocking of Fijabi Street",
+          label: "Construction of Drainage and Interlocking of Fijabi Streett", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Fijabi Street/14.jpg", label: "Construction of Drainage and Interlocking of Fijabi Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Fijabi Street/15.jpg", label: "Construction of Drainage and Interlocking of Fijabi Street" },
+             
+        
+             
+          ]
+        },
+
+
+        
+        {
+          key: "Construction of Drainage and Interlocking of Fijabi Street Link to Iyatuwo",
+          label: "Construction of Drainage and Interlocking of Fijabi Street Link to Iyatuwo", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Fijabi Street Link to Iyatuwo/5A.jpg", label: "Construction of Drainage and Interlocking of Fijabi Street Link to Iyatuwo" },
+
+             
+        
+          
+          ]
+        },
+
+
+        {
+          key: "Construction of Drainage and Interlocking of Igbaja Street",
+          label: "Construction of Drainage and Interlocking of Igbaja Street", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Igbaja Street/4A.jpg", label: "Construction of Drainage and Interlocking of Igbaja Street" }
+          
+          ]
+        },
+
+        {
+          key: "Construction of Drainage and Interlocking of Ladega Street",
+          label: "Construction of Drainage and Interlocking of Ladega Street", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Ladega Street/6A.jpg", label: "Construction of Drainage and Interlocking of Ladega Street" }
+          
+          ]
+        },
+
+        {
+          key: "Construction of Drainage and Interlocking of Market Street",
+          label: "Construction of Drainage and Interlocking of Market Street", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Market Street/8.jpg", label: "Construction of Drainage and Interlocking of Market Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Market Street/9.jpg", label: "Construction of Drainage and Interlocking of Market Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Market Street/10.jpg", label: "Construction of Drainage and Interlocking of Market Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Market Street/11.jpg", label: "Construction of Drainage and Interlocking of Market Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Market Street/12.jpg", label: "Construction of Drainage and Interlocking of Market Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Market Street/13.jpg", label: "Construction of Drainage and Interlocking of Market Street" }
+          
+          ]
+        },
+    
+
+
+        {
+          key: "Construction of Drainage and Interlocking of Muda Street",
+          label: "Construction of Drainage and Interlocking of Muda Street", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Muda Street/17.jpg", label: "Construction of Drainage and Interlocking of Muda Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Muda Street/18.jpg", label: "Construction of Drainage and Interlocking of Muda Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Muda Street/19.jpg", label: "Construction of Drainage and Interlocking of Muda Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Muda Street/20.jpg", label: "Construction of Drainage and Interlocking of Muda Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Muda Street/21.jpg", label: "Construction of Drainage and Interlocking of Muda Street" },
+   
+          ]
+        },
+
+
+
+        {
+          key: "Construction of Drainage and Interlocking of Ofure Street",
+          label: "Construction of Drainage and Interlocking of Ofure Street", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Ofure Street/7A.jpg", label: "Construction of Drainage and Interlocking of Muda Street" },
+           
+   
+          ]
+        },
+
+
+        
+        {
+          key: "Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road",
+          label: "Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road/27.jpg", label: "Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road/28.jpg", label: "Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road/29.jpg", label: "Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road/30.jpg", label: "Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road/31.jpg", label: "Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road/32.jpg", label: "Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road/33.jpg", label: "Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road/34.jpg", label: "Construction of Drainage and Interlocking of Oja Turner to Mosafejo Alaba Road" },
+           
+   
+          ]
+        },
+
+
+              
+        {
+          key: "Construction of Drainage and Interlocking of Olokodana Street",
+          label: "Construction of Drainage and Interlocking of Olokodana Street", 
+          images: [
+              { url: "/images/works/Construction of Drainage and Interlocking of Olokodana Street/9A.jpg", label: "Construction of Drainage and Interlocking of Olokodana Street" },
+              { url: "/images/works/Construction of Drainage and Interlocking of Olokodana Street/10A.jpg", label: "Construction of Drainage and Interlocking of Olokodana Street" },
+           
+          ]
+        },
+
+
+        {
+          key: "Construction of Water Systems across Local Council",
+          label: "Construction of Water Systems across Local Council", 
+          images: [
+              { url: "/images/works/Construction of Water Systems across Local Council/ABEJE STREET/AB.jpg", label: "Abeje Street" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ABEJE STREET/AB1.jpg", label: "Abeje Street" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ABEJE STREET/AB2.jpg", label: "Abeje Street" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ABEJE STREET/AB3.jpg", label: "Abeje Street" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ABEJE STREET/AB4.jpg", label: "Abeje Street" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ABEJE STREET/AB5.jpg", label: "Abeje Street" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ABEJE STREET/AB6.jpg", label: "Abeje Street" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ALAFIA ESTATE/AL.jpg", label: "ALAFIA ESTATE" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ALAFIA ESTATE/AL1.jpg", label: "ALAFIA ESTATE" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ALAFIA ESTATE/AL2.jpg", label: "ALAFIA ESTATE" },
+
+              { url: "/images/works/Construction of Water Systems across Local Council/ARO STREET/AR.jpg", label: "ARO STREET" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ARO STREET/AR1.jpg", label: "ARO STREET" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ARO STREET/AR2.jpg", label: "ARO STREET" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ARO STREET/AR3.jpg", label: "ARO STREET" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ARO STREET/AR4.jpg", label: "ARO STREET" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ARO STREET/AR5.jpg", label: "ARO STREET" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ARO STREET/AR6.jpg", label: "ARO STREET" },
+              { url: "/images/works/Construction of Water Systems across Local Council/ARO STREET/AR7.jpg", label: "ARO STREET" },
+
+
+              { url: "/images/works/Construction of Water Systems across Local Council/CAMPUS/CM.jpg", label: "CAMPUS" },
+              { url: "/images/works/Construction of Water Systems across Local Council/CAMPUS/CM2.jpg", label: "CAMPUS" },
+              { url: "/images/works/Construction of Water Systems across Local Council/CAMPUS/CM3.jpg", label: "CAMPUS" },
+
+
+              { url: "/images/works/Construction of Water Systems across Local Council/JIMOH STREET/JM.jpg", label: "JIMOH STREET" },
+              { url: "/images/works/Construction of Water Systems across Local Council/JIMOH STREET/JM1.jpg", label: "JIMOH STREET" },
+              { url: "/images/works/Construction of Water Systems across Local Council/JIMOH STREET/JM2.jpg", label: "JIMOH STREET" },
+              { url: "/images/works/Construction of Water Systems across Local Council/JIMOH STREET/JM3.jpg", label: "JIMOH STREET" },
+             
+
+              { url: "/images/works/Construction of Water Systems across Local Council/OWODUNNI WATER/OW1.jpg", label: "OWODUNNI WATER" },
+              { url: "/images/works/Construction of Water Systems across Local Council/OWODUNNI WATER/OW2.jpg", label: "OWODUNNI WATER" },
+              { url: "/images/works/Construction of Water Systems across Local Council/OWODUNNI WATER/OW3.jpg", label: "OWODUNNI WATER" },
+
+              { url: "/images/works/Construction of Water Systems across Local Council/JIMOH STREET/JM3.jpg", label: "JIMOH STREET" },
+
+
+
+
+
+
+
+
+
+
+
+
+              
+           
+          ]
+        },
+
+        
+     
+        {
+          key: "On-Going Construction Of Shiteolu Health Centre Amukoko Roundabout",
+          label: "On-Going Construction Of Shiteolu Health Centre Amukoko Roundabout", 
+          images: [
+              { url: "/images/works/On-Going Construction Of Shiteolu Health Centre Amukoko Roundabout/15A.jpg", label: "On-Going Construction Of Shiteolu Health Centre Amukoko Roundabout" },
+
+           
+          ]
+        },
+   
+        
+        {
+          key: "Ongoing Construction of Administrative Building",
+          label: "Ongoing Construction of Administrative Building", 
+          images: [
+              { url: "/images/works/Ongoing Construction of Administrative Building/16.jpg", label: "Ongoing Construction of Administrative Building"},
+              { url: "/images/works/Ongoing Construction of Administrative Building/17.jpg", label: "Ongoing Construction of Administrative Building"},
+              { url: "/images/works/Ongoing Construction of Administrative Building/18.jpg", label: "Ongoing Construction of Administrative Building"},
+              { url: "/images/works/Ongoing Construction of Administrative Building/19.jpg", label: "Ongoing Construction of Administrative Building"},
+              { url: "/images/works/Ongoing Construction of Administrative Building/20.jpg", label: "Ongoing Construction of Administrative Building"},
+              { url: "/images/works/Ongoing Construction of Administrative Building/21.jpg", label: "Ongoing Construction of Administrative Building"},
+             
+
+           
+          ]
+        },
+
+
+
+        {
+          key: "Renovation of the Council Secretariat Renovation of Fences Gate house and Cladding of the Council Building",
+          label: "Renovation of the Council Secretariat Renovation of Fences Gate house and Cladding of the Council Building", 
+          images: [
+              { url: "/images/works/Renovation of the Council Secretariat Renovation of Fences Gate house and Cladding of the Council Building/2Ajpg", label: "Renovation of the Council Secretariat Renovation of Fences Gate house and Cladding of the Council Building"},
+              { url: "/images/works/Renovation of the Council Secretariat Renovation of Fences Gate house and Cladding of the Council Building/4.jpg", label: "Renovation of the Council Secretariat Renovation of Fences Gate house and Cladding of the Council Building"},
+
+             
+
+           
+          ]
+        },
+     
+
+        
+        {
+          key: "Street Solar Lighting of Cemetery Alaba Road",
+          label: "Street Solar Lighting of Cemetery Alaba Road", 
+          images: [
+              { url: "/images/works/Street Solar Lighting of Cemetery Alaba Road/14jpg", label: "Street Solar Lighting of Cemetery Alaba Road"},
+              { url: "/images/works/Street Solar Lighting of Cemetery Alaba Road/14.jpg", label: "Street Solar Lighting of Cemetery Alaba Road"},
+  
+              
+
+
+             
+
+           
+          ]
+        },
+  
+  
+        {
+          key: "Street Solar Lighting of Ofure Street",
+          label: "Street Solar Lighting of Ofure Street", 
+          images: [
+              { url: "/images/works/Street Solar Lighting of Ofure Street/ST.jpg", label: "Street Solar Lighting of Ofure Street"},
+              { url: "/images/works/Street Solar Lighting of Ofure Street/ST1.jpg", label: "Street Solar Lighting of Ofure Street"},
+
+             
+
+           
+          ]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+      ]
+    }
+
+    ]

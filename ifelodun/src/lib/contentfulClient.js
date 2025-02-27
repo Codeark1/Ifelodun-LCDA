@@ -48,7 +48,7 @@ export async function getBlogPostBySlug(slug) {
       "fields.slug": slug,
     });
 
-    console.log("Contentful response:", JSON.stringify(response, null, 2));
+    // console.log("Contentful response:", JSON.stringify(response, null, 2));
 
     return response.items.length > 0
       ? {

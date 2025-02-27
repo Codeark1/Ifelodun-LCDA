@@ -11,7 +11,7 @@ const navLinks = [
   {
     label: "Project",
     subLinks: [
-      { label: "Works", href: "/project/works" },
+      { label: "Works", href: "/project/Works" },
       { label: "ICT", href: "/project/ict" },
       { label: "Agriculture and Palliative", href: "/project/agric-palliative" },
 
@@ -82,9 +82,13 @@ const Header = () => {
     <Clock /> Office Hours: Mon - Fri, 9:00 AM - 5:00 PM
   </p>
 
-  <p className="flex justify-center md:justify-end items-center gap-2 text-sm md:text-base">
-    <Mails /> info@ibejulekki.lg.gov.ng
-  </p>
+  <a 
+  href="mailto:info@ifelodunlcda.com" 
+  className="flex justify-center md:justify-end items-center gap-2 text-sm md:text-base text-blue-green hover:underline"
+>
+  <Mails /> info@ifelodunlcda.com
+</a>
+
 </div>
 
 

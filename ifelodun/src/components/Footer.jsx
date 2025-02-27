@@ -1,69 +1,90 @@
-import { LocateIcon, Mail, MapPin, Phone } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  LocateIcon,
+  Mail,
+  MapPin,
+  Phone,
+  Twitter,
+} from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+
+
 
 const Footer = () => {
-    return (
-      <div className="bg-black text-gray-300 py-10 px-6 ">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Left Section */}
-          <div className=" flex flex-col space-y-6">
-            <Image src="/images/logo.png" alt="logo" width={50} height={50} loading="lazy"/>
-            <p className="text-sm leading-relaxed">
-            Ifelodun Local Government Council is a progressive and community-focused administrative body located in Lagos, Nigeria. Dedicated to sustainable development and the well-being of our residents, we strive to create an environment where businesses thrive, infrastructure flourishes, and every citizen enjoys an improved quality of life.
-            </p>
+  return (
+    <div className="bg-green-700 text-gray-300 py-12 px-4 ">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+        {/* Left Section */}
+        <div className="flex flex-col space-y-4">
+          <Image
+            src="/images/logo.png"
+            alt="logo"
+            width={40}
+            height={40}
+            loading="lazy"
+          />
+          <p className="text-sm leading-snug">
+            Ifelodun Local Government Council is a progressive and
+            community-focused administrative body located in Lagos, Nigeria.
+          </p>
+        </div>
+
+        {/* Web Links */}
+        <div>
+          <h3 className="text-sm font-semibold text-white">Web Links</h3>
+          <ul className="mt-3 space-y-1 text-xs">
+            <li className="flex items-center gap-2">
+              <Mail color="white" size={20}/>{" "}
+              <a
+                href="mailto:info@ibejulekki.lg.gov.ng"
+                className="hover:text-white font-medium text-sm"
+              >
+                info@ifelodunlcda.com
+              </a>
+            </li>
+            <li className="flex items-center gap-2 text-sm">
+              <Phone color="white" size={20} /> 08079792040, 09167148716
+            </li>
+            <li>
+              <span className="font-semibold text-white text-sm">The Council Secretariat</span>
+              <p className=" mt-1 text-sm">3 Dispensary Street, Amukoko, Lagos</p>
+            </li>
+          </ul>
+        </div>
+
+        {/* About Us */}
+        <div>
+          <h3 className="text-sm font-semibold text-white">About Us</h3>
+          <ul className="mt-3 space-y-1 text-sm hover:underline">
+            <li><a href="/" className="">Home</a></li>
+            <li><a href="/about">About Ifelodun LCDA</a></li>
+            <li><a href="/contact">Job Opportunity Desk</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        {/* Follow Us */}
+        <div>
+          <h3 className="text-sm  font-semibold text-white">Follow Us</h3>
+          <div className="flex space-x-3 mt-3 text-sm">
+            <a href="https://www.facebook.com/officeofthechairmanifelodunlcda" className="text-gray-400 hover:text-white">
+              <Facebook size={20} color="white" />
+            </a>
+            <a href="https://www.instagram.com/explore/locations/409183292448081/ifelodun-lcda" className="text-gray-400 hover:text-white">
+              <Instagram size={20} color="white" />
+            </a>
           </div>
-  
-          {/* Web Links */}
-          <div>
-            <h3 className="text-lg font-semibold text-white">Web Links</h3>
-            <ul className="mt-4 space-y-2 text-sm">
-              <li className="flex items-center gap-2">
-            <Mail color='green'/> <a href="mailto:info@ibejulekki.lg.gov.ng" className="hover:text-white">info@ibejulekki.lg.gov.ng</a>
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone color="green"/> 08079792040, 09167148716
-              </li>
-              <li>
-                <span className="font-semibold text-white">The Council Secretariat</span>
-                <p className="text-sm mt-1">
-                <MapPin /> Klm 47, Lekki-Epe Expressway, Igando-Oloja, Ibeju-Lekki, Lagos State.
-                </p>
-              </li>
-            </ul>
-          </div>
-  
-          {/* About Us */}
-          <div>
-            <h3 className="text-lg font-semibold text-white">About Us</h3>
-            <ul className="mt-4 space-y-2 text-sm">
-              <li><a href="#" className="text-green-400">Home</a></li>
-              <li><a href="#">About Ibeju-Lekki Local Government</a></li>
-              <li><a href="#">Council Personnels</a></li>
-              <li><a href="#">Projects & News</a></li>
-              <li><a href="#">Job Opportunity Desk</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-  
-          {/* Follow Us */}
-          <div>
-            <h3 className="text-lg font-semibold text-white">Follow Us</h3>
-            <div className="flex space-x-4 mt-4">
-              <a href="#" className="text-gray-400 hover:text-white">🌐</a>
-              <a href="#" className="text-gray-400 hover:text-white">🐦</a>
-              <a href="#" className="text-gray-400 hover:text-white">📸</a>
-              <a href="#" className="text-gray-400 hover:text-white">🎵</a>
-            </div>
-            <p className="text-sm mt-6">
-              © 2024 Created by <a href="#" className="text-blue-400">Nihitem Solutions</a>
-            </p>
-          </div>
+          <p className="text-xs mt-4">
+            © {new Date().getFullYear()} Created by{" "}
+            <a href="#" className="text-blue-400">codeark</a>
+          </p>
         </div>
       </div>
-    );
-  };
-  
-  export default Footer;
-  
+    </div>
+  );
+};
 
+export default Footer;
 

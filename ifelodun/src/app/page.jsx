@@ -28,7 +28,7 @@ const Page = () => {
   };
 
   return (
-    <div className="h-screen">
+    <div className="">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index}>

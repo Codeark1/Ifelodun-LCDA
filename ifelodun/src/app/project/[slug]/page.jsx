@@ -7,6 +7,7 @@ import { Image as AntImage } from "antd";
 import { CameraOutlined } from "@ant-design/icons";
 import Image from "next/image";
 import { categories } from "../../../data/category";
+import { ConfigProvider } from "antd";
 
 export default function CategoryTabs() {
   const params = useParams();
@@ -59,7 +60,29 @@ export default function CategoryTabs() {
       <h1 className="text-3xl font-bold mb-4 text-green-700">{category.name}</h1>
       <p className="text-gray-600 mb-8 text-lg">Explore programs related to {category.name}.</p>
 
-      <Tabs activeKey={activeTab} onChange={setActiveTab} items={items}  />
+      <ConfigProvider
+  theme={{
+    components: {
+      Tabs: {
+        itemColor: "#4CAF50", 
+        itemActiveColor: "red", 
+        itemHoverColor: "#1c1c1c", 
+        inkBarColor: "#1c1c1c", 
+        fontSize: 20, 
+        fontWeight: "800",
+        fontFamily: "var(--font-plus-jakarta)"
+      },
+    },
+  }}
+>
+  <div className="flex justify-center">
+    <Tabs activeKey={activeTab} onChange={setActiveTab} items={items} centered />
+  </div>
+</ConfigProvider>
+
+
+
+
 
       <CategoryModal
         visible={modalVisible}
@@ -70,7 +93,7 @@ export default function CategoryTabs() {
   );
 }
 
-// ✅ Extracted Category Card Component
+
 function CategoryCard({ category, onClick }) {
   const imageCount = useMemo(
     () => category.subCategories.reduce((acc, sub) => acc + sub.images.length, 0),

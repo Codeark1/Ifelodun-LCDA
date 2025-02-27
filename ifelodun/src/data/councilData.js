@@ -10,6 +10,6 @@ export const councilData = {
   ],
   buttonText: "Read More",
   imageSrc: "/images/chairman4.jpg",
-  officialName: "Hon. Fuad Atanda-Lawal",
+  officialName: "Hon. Olúfémi Àkànbí Ọ̀kẹ́owó",
   officailPosition: "Executive Chairman",
 };
