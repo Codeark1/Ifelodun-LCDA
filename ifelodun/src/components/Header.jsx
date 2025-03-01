@@ -74,7 +74,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-  <div className="sticky top-0 z-50">
+  <div className="">
 <div className="w-full bg-green-600 text-white px-4 md:px-8 py-3 grid grid-cols-1 md:grid-cols-3 gap-3 text-center md:text-left items-center">
   <p className="text-sm md:text-base font-semibold">
     Official website of Ifelodun LCDA

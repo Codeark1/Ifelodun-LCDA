@@ -76,9 +76,9 @@ const Footer = () => {
               <Instagram size={20} color="white" />
             </a>
           </div>
-          <p className="text-xs mt-4">
+          <p className="text-sm mt-4">
             © {new Date().getFullYear()} Created by{" "}
-            <a href="#" className="text-blue-400">codeark</a>
+            <a href="#" className="text-blue-500">Ifelocdun Local Government Development Area </a>
           </p>
         </div>
       </div>
