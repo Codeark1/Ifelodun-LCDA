@@ -4,8 +4,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { councilData } from "../data/councilData";
 import { CheckCheckIcon } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 const CouncilWelcome = () => {
+  const router = useRouter();
   return (
     <div className="min-h-screen bg-slate-100">
       <div className="flex flex-col md:flex-row items-center gap-6 p-6">
@@ -61,7 +63,7 @@ const CouncilWelcome = () => {
           </ul>
 
           {/* Read More Button */}
-          <motion.button 
+          <motion.button  onClick={()=>router.push('/about')}
             className="mt-6 px-6 py-2 bg-green-900 text-white font-medium font-sans rounded-md hover:bg-green-700 transition"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

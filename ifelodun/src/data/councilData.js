@@ -10,6 +10,6 @@ export const councilData = {
   ],
   buttonText: "Read More",
   imageSrc: "/images/chairman4.jpg",
-  officialName: "Hon. Olúfémi Àkànbí Ọ̀kẹ́owó",
+  officialName: "Hon. Olufemi Akanbi Okeowo",
   officailPosition: "Executive Chairman",
 };

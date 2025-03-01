@@ -25,7 +25,7 @@ export const cabinet = [
         },
         {
           role: "Secretary to the local government",
-          image: "/images/sec.jpeg",
+          image: "/images/sec1.jpeg",
           name: "Hon. Rahamon Lanre Rasheed",
           socials: {
             instagram: "@eleanorchenofficial",
@@ -115,7 +115,7 @@ export const cabinet = [
         },
         {
           role: "S.A Special Duty",
-          image: "/images/S.-A.-Special-Duty.jpeg",
+          image: "/images/S.-A.-Special-Duty1.jpeg",
           name: "Hon. Hammed Mayegun",
           socials: {
             instagram: "@fatima.almansoori",
@@ -211,7 +211,7 @@ export const cabinet = [
       members: [
         {
           role: "Council manager",
-          image: "/images/CM.jpeg",
+          image: "/images/CM1.jpeg",
           name: "Mr. Saheed Abiodun Azeez",
           socials: {
             twitter: "@SophiaBennettCEO",
@@ -221,7 +221,7 @@ export const cabinet = [
         },
         {
           role: "Council Treasurer",
-          image: "/images/Council-Treasurer.jpg",
+          image: "/images/Council-Treasurer1.jpg",
           name: "Mr. Oluyemisi OLUSANYA",
           socials: {
             linkedin: "linkedin.com/in/derekoconnor",
@@ -361,7 +361,7 @@ export const cabinet = [
         },
         {
           role: "legal officer",
-          image: "/images/management/legal.jpg",
+          image: "/images/management/legal.jpeg",
           name: "Barr. Olaleye Rafiu Olusola",
           socials: {
             twitter: "@NadiaTechLead",
@@ -656,7 +656,7 @@ export const cabinet = [
         },
         {
           role: "Chief Press Secretary Ifelodun LCDA",
-          image: "/images/Non-cabinet/kam.jpg",
+          image: "/images/Non-cabinet/kam2.jpg",
           name: "Kamaldeen Iyanda Abdulsalam",
           socials: {
             instagram: "@tylernguyenpress",

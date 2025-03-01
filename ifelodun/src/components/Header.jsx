@@ -2,6 +2,7 @@
 import { ChevronDown, Clock, Mails } from "lucide-react";
 import Image from "next/image";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const navLinks = [
   {
@@ -69,10 +70,11 @@ const navLinks = [
 ];
 
 const Header = () => {
+  const router = useRouter();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-  <div>
+  <div className="sticky top-0 z-50">
 <div className="w-full bg-green-600 text-white px-4 md:px-8 py-3 grid grid-cols-1 md:grid-cols-3 gap-3 text-center md:text-left items-center">
   <p className="text-sm md:text-base font-semibold">
     Official website of Ifelodun LCDA
@@ -92,9 +94,10 @@ const Header = () => {
 </div>
 
 
-    <header className="bg-white shadow font-sans font-medium text-[#1c1c1c]">
+<header className="bg-white shadow font-sans font-medium text-[#1c1c1c] ">
+
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <Image src="/images/logo.png" alt="Logo" width={60} height={60} />
+        <Image src="/images/logo.png" className="cursor-pointer" alt="Logo" width={60} height={60} onClick={()=>router.push("/")} />
         <nav className="hidden md:flex space-x-6">
           {navLinks.map((link, index) => (
             <div key={index} className="relative group">
