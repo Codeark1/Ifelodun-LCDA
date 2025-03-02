@@ -45,7 +45,7 @@ const Footer = () => {
               </a>
             </li>
             <li className="flex items-center gap-2 text-sm">
-              <Phone color="white" size={20} /> 08079792040, 09167148716
+              <Phone color="white" size={20} />
             </li>
             <li>
               <span className="font-semibold text-white text-sm">The Council Secretariat</span>

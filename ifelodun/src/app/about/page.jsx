@@ -4,9 +4,10 @@ import { caretaker } from "../../data/caretaker";
 
 import { Collapse } from "antd";
 import Image from "next/image";
-
+import { useState } from "react";
 
 const Page = () => {
+  const [showMore, setShowMore] = useState(false);
   return (
     <div className="p-6 lg:p-10">
       <div className="space-y-6">
@@ -54,6 +55,88 @@ const Page = () => {
           Oyewole Adenekan was sworn in as the first administrator on November
           27, 2003.
         </p>
+
+        <div className="w-full mx-auto p-6 bg-white rounded-lg">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Image Section */}
+            <div>
+              <Image
+                src="/images/chairman.jpg" // Replace with actual image path
+                alt="Mayor Olufemi Akanbi Okeowo"
+                width={400}
+                height={500}
+                className="w-full md:w-[80%] h-auto rounded-lg shadow-md"
+                priority
+              />
+            </div>
+
+            {/* Text Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-blue-700 mb-4">
+                WHO IS MAYOR OLUFEMI AKANBI OKEOWO (IGBAYILAYOMIDE)
+              </h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Mayor Olufemi Okeowo (aka Golden Dove) was born in the last
+                quarter of the 50s in Lagos Island (Ile-Eleye), though a native
+                of Idofian town in Ifelodun Local Government Area of Kwara
+                State. He had his Primary and Secondary education in Lagos
+                Island and attended Lagos Polytechnic, Yaba.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Mayor Okeowo is a master's degree holder in shipping and a
+                professional sales purchase and monitoring consultant. In 1983,
+                he traveled abroad to further his education and pursue a
+                professional football career. He returned to Nigeria in the
+                early 90s and became politically active.
+              </p>
+
+              {showMore ? (
+                <>
+                  <p className="text-gray-700 leading-relaxed">
+                    A strong believer in perseverance, Mayor Okeowo has remained
+                    a formidable and consistent political figure. He was the
+                    Local Government Coordinator for the Sanwo-Olu Hamzat
+                    Governorship Campaign in 2019. He follows the wise words of
+                    Abraham Lincoln:
+                    <span className="italic text-sm font-bold">
+                      “I will study and prepare myself and someday, I know my
+                      chance will come.”
+                    </span>
+                  </p>
+                  <p className="text-gray-700">
+                    In all his aspiration failures, Mayor Okeowo (aka
+                    Igbayilayomide) still stands like an Iroko tree politically,
+                    believing that his time will surely come one day.
+                  </p>
+                  <p className="text-gray-700">
+                    So it was not a surprise when he contested under the APC
+                    Local Government Primary Election for the Ifelodun L.C.D.A
+                    chairmanship alongside sixteen other viable and qualified
+                    aspirants in 2021, and he eventually won.
+                  </p>
+                  <p className="text-gray-700">
+                    Hon. (Mayor) Olufemi Akanbi Okeowo is a devoted Christian,
+                    loved by everyone around him for his frankness, dedication
+                    to duty, open-door policy, and non-discriminatory nature.
+                  </p>
+                  <p className="text-gray-700">
+                    Mayor Olufemi Okeowo Akanbi is a family man, married to
+                    Chief Mrs. Okeowo, and blessed with Godly, cherished
+                    children.
+                  </p>
+                </>
+              ) : null}
+
+              {/* Show More / Show Less Button */}
+              <button
+                onClick={() => setShowMore(!showMore)}
+                className="mt-4 text-blue-600 font-semibold hover:underline"
+              >
+                {showMore ? "Show Less" : "Show More"}
+              </button>
+            </div>
+          </div>
+        </div>
 
         {/* Leadership Section */}
         <h2 className="text-2xl font-semibold mt-8">Past Leadership</h2>
@@ -111,46 +194,63 @@ const Page = () => {
         </p>
       </div>
       <div className=" space-y-3">
-        <p className=" font-bold pt-6">WHO IS HON. JOHN FEMI OLUMUYIWA (JP)</p>
+        <div className="grid grid-cols-1 md:grid-cols-[25rem,1fr] gap-2 pt-8">
+          <div className=" font-bold ">
+            <p>WHO IS HON. JOHN FEMI OLUMUYIWA (JP)</p>
+            <div className="flex  pt-8">
+  <Image
+    src="/images/john.jpg" // Replace with actual image path
+    alt="Hon. John Femi Olumuyiwa"
+    width={200} // Increased width
+    height={200} // Increased height
+    className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-lg shadow-md"
+    priority
+  />
+</div>
 
-        <p>
-          Born on 15th October 1978, a native of Ibadan in the Ibadan North East
-          Local Government Area of Oyo State. He started his educational career
-          at Metropolitan Primary School, Orile-Iganmu, where he sat for his
-          First School Leaving Certificate Examination in 1992, He processed to
-          Araromi Secondary school Orile-Iganmu, where he sat for his West
-          African Examination, Youn Femi John attended the polytechnic Ibadan.
-          Oyo State, state, where he bagged his Ordinary National Diploma (OND)
-          in business studies in 2007. The amiable and young Olumuyiwa John also
-          attended University of Ibadan Oyo State for his B.sc (Hon.) in
-          Political Science (in view).
-        </p>
+          </div>
 
-        <p>
-          At the Government level, Hon. John Olumuyiwa has served the Ifelodun
-          L.C.D.A in various notable capacities such as personal Assistant to
-          the chairman 2003 – 2007, Senior Special Assistant to the chairman
-          2007 – 2010, supervisor for budget planning and statistics Ifelodun
-          L.C.D.A 2012 – 2014. He was appointed as Sole Administrator for the
-          Ifelodun L.C.D.A on 13th June2016, by the then Governor of Lagos State
-          H/E Mr. Akinwumi Ambode.
-        </p>
+          <p  className="leading-8">
+            Born on 15th October 1978, a native of Ibadan in the Ibadan North
+            East Local Government Area of Oyo State. He started his educational
+            career at Metropolitan Primary School, Orile-Iganmu, where he sat
+            for his First School Leaving Certificate Examination in 1992, He
+            processed to Araromi Secondary school Orile-Iganmu, where he sat for
+            his West African Examination, Youn Femi John attended the
+            polytechnic Ibadan. Oyo State, state, where he bagged his Ordinary
+            National Diploma (OND) in business studies in 2007. The amiable and
+            young Olumuyiwa John also attended University of Ibadan Oyo State
+            for his B.sc (Hon.) in Political Science (in view).
+          </p>
+        </div>
 
-        <p>
-          At the political level, Hon. Olumuyiwa was at a time member of the now
-          defunct UNCP, AD, Youth leader for the Ifelodun L.C.D.A, AC and also
-          its Badagry Divisional Youth leader, the offices he also occupied
-          during the regime of CAN, He was also the Ifelodun L.C.D.A Youths
-          leader for the APC till when appointed a supervisor for the L.C.D.A.
-          Hon. John Olumuyiwa Femi is a Christian, happily married with lovely
-          children.
-        </p>
+        <div>
+          <p className="leading-8">
+            At the Government level, Hon. John Olumuyiwa has served the Ifelodun
+            L.C.D.A in various notable capacities such as personal Assistant to
+            the chairman 2003 – 2007, Senior Special Assistant to the chairman
+            2007 – 2010, supervisor for budget planning and statistics Ifelodun
+            L.C.D.A 2012 – 2014. He was appointed as Sole Administrator for the
+            Ifelodun L.C.D.A on 13th June2016, by the then Governor of Lagos
+            State H/E Mr. Akinwumi Ambode.
+          </p>
 
-        <p>
-          The Fourth Local Government Elections in the Ifelodun L.C.D.A was held
-          on 22nd July 2017 where the following Experienced Democrats were
-          elected.
-        </p>
+          <p className=" leading-8">
+            At the political level, Hon. Olumuyiwa was at a time member of the
+            now defunct UNCP, AD, Youth leader for the Ifelodun L.C.D.A, AC and
+            also its Badagry Divisional Youth leader, the offices he also
+            occupied during the regime of CAN, He was also the Ifelodun L.C.D.A
+            Youths leader for the APC till when appointed a supervisor for the
+            L.C.D.A. Hon. John Olumuyiwa Femi is a Christian, happily married
+            with lovely children.
+          </p>
+
+          <p className=" leading-8">
+            The Fourth Local Government Elections in the Ifelodun L.C.D.A was
+            held on 22nd July 2017 where the following Experienced Democrats
+            were elected.
+          </p>
+        </div>
 
         <ul className="list-decimal pl-5 space-y-2">
           <li>
@@ -330,79 +430,6 @@ const Page = () => {
             <strong>Chairman Revenue Committee:</strong> Mr. Opadeji Opeyemi
           </li>
         </ol>
-      </div>
-      <div className="w-full mx-auto p-6 bg-white rounded-lg">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-          {/* Image Section */}
-          <div className="">
-            <Image
-              src="/images/chairman.jpg" // Replace with actual image path
-              alt="Mayor Olufemi Akanbi Okeowo"
-              width={400} // Set appropriate width
-              height={500} // Set appropriate height
-              className="w-full md:w-[80%] h-auto rounded-lg shadow-md"
-              priority // Loads image faster
-            />
-          </div>
-
-          {/* Text Section */}
-          <div>
-            <h2 className="text-2xl font-bold text-blue-700 mb-4">
-              WHO IS MAYOR OLUFEMI AKANBI OKEOWO (IGBAYILAYOMIDE)
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Mayor Olufemi Okeowo (aka Golden Dove) was born in the last
-              quarter of the 50s in Lagos Island (Ile-Eleye), though a native of
-              Idofian town in Ifelodun Local Government Area of Kwara State. He
-              had his Primary and Secondary education in Lagos Island and
-              attended Lagos Polytechnic, Yaba.
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Mayor Okeowo is a master's degree holder in shipping and a
-              professional sales purchase and monitoring consultant. In 1983, he
-              traveled abroad to further his education and pursue a professional
-              football career. He returned to Nigeria in the early 90s and
-              became politically active.
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              A strong believer in perseverance, Mayor Okeowo has remained a
-              formidable and consistent political figure. He was the Local
-              Government Coordinator for the Sanwo-Olu Hamzat Governorship
-              Campaign in 2019. He follows the wise words of Abraham Lincoln:{" "}
-              <span className="italic text-sm font-bold">
-                “i will study and prepare myself and someday, i know my chance
-                will come”. and that of charles c. noble whose thought say; “you
-                must have long-range goals to keep you from being frustrated by
-                short-range goal failure”
-              </span>
-            </p>
-            <p className="text-gray-700">
-              In all his aspiration failures, Mayor Okeowo (aka Igbayilayomide)
-              still stands like Iroko tree politically believing that his time
-              will surely come one day.{" "}
-            </p>
-            <p className="text-gray-700">
-              So it was not a surprise when he contested under the APC Local
-              Government Primary Election for the Ifelodun L.C.D.A chairmanship
-              alongside sixteen other viable and qualified aspirants in 2021 and
-              he eventually won the Local government Chairmen. In Lagos by H/E
-              Mr. Babajide Olushola Sanwo- Olu, The Executive Governor of Lagos
-              State on Tuesday 27th July 2021.
-            </p>
-
-            <p className="text-gray-700">
-              Hon (Mayor) Olufemi Akanbi Okeowo is a devoted and practicing
-              Christian, loved by everyone around him for his frankness,
-              dedication to duty, open door policy, non – discrimination against
-              tribe, language, religion and gender.
-            </p>
-
-
-            <p className="text-gray-700">Mayor Olufemi Okeowo Akanbi is an amiable Family man. Married to Chief Mrs. Okeowo and the union was blessed with Godly, amiable and cherished children 
-	(TRULY IGBAYILAYO SESE DE)
-</p>
-          </div>
-        </div>
       </div>
     </div>
   );

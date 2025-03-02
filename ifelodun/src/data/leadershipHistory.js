@@ -4,13 +4,13 @@ export const leadershipHistory = [
   {
     key: "1",
     label: (
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center gap-4">
         <Image
-          width={56}
-          height={56}
+          width={100}
+          height={100}
           src="/images/Adenekan.jpg"
           alt="Hon. (Prince) Taiwo Oyewole Adenekan"
-          className="w-24 h-24 rounded-full"
+         className="w-32 h-32 rounded-lg"
         />
         <span className="text-lg font-semibold">
           HON. TAIWO OYEWOLE ADENEKAN
@@ -166,18 +166,19 @@ export const leadershipHistory = [
   {
     key: "2",
     label: (
-      <div className="flex items-center space-x-4">
-        <Image
-          width={56}
-          height={56}
-          src="/images/Adenekan.jpg"
-          alt="HON. FATAI SHUAIB OLOROMBO AJIDAGBA"
-          className="w-24 h-24 rounded-full"
-        />
-        <span className="text-lg font-semibold">
-          HON. FATAI SHUAIB OLOROMBO AJIDAGBA
-        </span>
-      </div>
+      <div className="flex items-center gap-4 ">
+      <Image
+        width={100} // Increased width
+        height={100} // Increased height
+        src="/images/fatai.jpg"
+        alt="HON. FATAI SHUAIB OLOROMBO AJIDAGBA"
+        className="w-32 h-32 rounded-lg" // Increased size and removed rounded-full
+      />
+      <span className="text-xl font-semibold">
+        HON. FATAI SHUAIB OLOROMBO AJIDAGBA
+      </span>
+    </div>
+    
     ),
     children: (
       <div className=" space-y-6">
