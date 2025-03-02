@@ -69,13 +69,13 @@ export default function CategoryTabs() {
         itemHoverColor: "#1c1c1c", 
         inkBarColor: "#1c1c1c", 
         fontSize: 20, 
-        fontWeight: "800",
+        fontWeight: "900",
         fontFamily: "var(--font-plus-jakarta)"
       },
     },
   }}
 >
-  <div className="flex justify-center">
+  <div className=" font-sans">
     <Tabs activeKey={activeTab} onChange={setActiveTab} items={items} centered />
   </div>
 </ConfigProvider>
