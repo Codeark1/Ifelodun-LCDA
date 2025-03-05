@@ -106,7 +106,7 @@ const Header = () => {
                   <button className="flex items-center text-green-500 hover:text-green-600 focus:outline-none">
                     {link.label} <span className="ml-1 text-xs"><ChevronDown/></span>
                   </button>
-                  <div className="absolute left-0 mt-2 w-40 bg-white shadow-lg rounded opacity-0 group-hover:opacity-100 transition-opacity z-10 max-h-48 overflow-y-auto scrollbar-hide">
+                  <div className="absolute left-0 mt-2 w-40 bg-white shadow-lg rounded opacity-0 group-hover:opacity-100 transition-opacity  max-h-40 overflow-y-auto scrollbar-hide z-50">
                     <ul className="py-2">
                       {link.subLinks.map((subLink, subIndex) => (
                         <li key={subIndex}>

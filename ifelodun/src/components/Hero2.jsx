@@ -84,39 +84,61 @@ const CouncilWelcome = () => {
           Ifelodun’s Growth Story
         </h2>
 
-<div className=" grid grid-cols-2">
-<div className="mt-4 flex justify-center">
-          <motion.video
-            className="w-full md:w-1/2 rounded-lg p-2 sm:p-1 shadow-md"
-            controls
-            preload="metadata" 
-            playsInline 
-            poster="/images/chairman.jpg"
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-          >
-            <source src="/images/bg-video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </motion.video>
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+  {/* First Video */}
+  <div className="flex justify-center">
+    <motion.video
+      className="w-full md:w-4/5 lg:w-3/4 h-48 md:h-56 lg:h-64 rounded-lg p-2 sm:p-1 object-cover shadow-md"
+      controls
+      preload="metadata"
+      playsInline
+      poster="/images/chairman3.jpg"
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6, delay: 0.5 }}
+    >
+      <source src="/images/bg-video2.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </motion.video>
+  </div>
 
-        <div className=" mt-4 flex justify-center">
-        <motion.video
-            className="w-full md:w-1/2 rounded-lg p-2 sm:p-1 shadow-md"
-            controls
-            preload="metadata" 
-            playsInline 
-            poster="/images/chairman2.jpg"
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-          >
-            <source src="/images/bg-video2.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </motion.video> 
-        </div>
+  {/* Second Video */}
+  <div className="flex justify-center">
+    <motion.video
+      className="w-full md:w-4/5 lg:w-3/4 h-48 md:h-56 lg:h-64 rounded-lg p-2 sm:p-1 object-cover shadow-md"
+      controls
+      preload="metadata"
+      playsInline
+      poster="/images/chairman.jpg"
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6, delay: 0.5 }}
+    >
+      <source src="/images/3video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </motion.video>
+  </div>
+
+  {/* Third Video */}
+  <div className="flex justify-center">
+    <motion.video
+      className="w-full md:w-4/5 lg:w-3/4 h-48 md:h-56 lg:h-64 rounded-lg p-2 sm:p-1 object-cover shadow-md"
+      controls
+      preload="metadata"
+      playsInline
+      poster="/images/chairman2.jpg"
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6, delay: 0.5 }}
+    >
+      <source src="/images/bg-video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </motion.video>
+  </div>
 </div>
+
+
+
 
 
 

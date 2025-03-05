@@ -90,6 +90,24 @@ export const categories = [
               { url: "/images/education/jamb/86.jpg", label: "Distribution of jamb form" },
               { url: "/images/education/jamb/88.jpg", label: "Distribution of jamb form" },
               { url: "/images/education/jamb/89.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/101.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/89.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/90.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/91.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/92.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/93.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/94.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/95.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/96.jpg", label: "Distribution of jamb form" },
+              // { url: "/images/education/jamb/97.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/98.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/99.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/100.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/102.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/103.jpg", label: "Distribution of jamb form" },
+              { url: "/images/education/jamb/104.jpg", label: "Distribution of jamb form" },	
+         
+
            
           ]
         }, {

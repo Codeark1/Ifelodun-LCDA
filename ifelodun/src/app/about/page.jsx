@@ -72,7 +72,7 @@ const Page = () => {
 
             {/* Text Section */}
             <div>
-              <h2 className="text-2xl font-bold text-blue-700 mb-4">
+              <h2 className="text-2xl font-bold text-green-500 mb-4">
                 WHO IS MAYOR OLUFEMI AKANBI OKEOWO (IGBAYILAYOMIDE)
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -130,7 +130,7 @@ const Page = () => {
               {/* Show More / Show Less Button */}
               <button
                 onClick={() => setShowMore(!showMore)}
-                className="mt-4 text-blue-600 font-semibold hover:underline"
+                className="mt-4 text-green-500 font-semibold hover:underline"
               >
                 {showMore ? "Show Less" : "Show More"}
               </button>

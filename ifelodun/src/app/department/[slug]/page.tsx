@@ -6,8 +6,16 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const DepartmentDetail = () => {
-  const { slug } = useParams();
+  const params = useParams(); // Ensure params is always an object
   const [department, setDepartment] = useState<any>(null);
+  const [slug, setSlug] = useState<string | null>(null);
+
+  // Ensure slug updates only after hydration
+  useEffect(() => {
+    if (params?.slug) {
+      setSlug(params.slug as string);
+    }
+  }, [params]);
 
   useEffect(() => {
     if (slug && departmentsData[slug as keyof typeof departmentsData]) {
@@ -39,7 +47,7 @@ const DepartmentDetail = () => {
       </header>
 
       {/* Department Content */}
-      <div className="bg-white shadow-md rounded-lg p-6 border border-gray-200">
+      <div className="bg-white shadow-md rounded-lg p-6 border border-gray-200 pl-8">
         <h2 className="text-xl font-semibold text-blue-600 mb-4">Department Overview</h2>
         
         {/* Using dangerouslySetInnerHTML to render HTML content with Tailwind classes */}

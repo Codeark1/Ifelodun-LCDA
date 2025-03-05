@@ -8,8 +8,8 @@ export const cabinet = [
           image: "/images/chairman2.jpg",
           name: "MAYOR OLUFEMI AKANBI OKEOWO",
           socials: {
-            twitter: "@AlexandraMorgan",
-            linkedin: "linkedin.com/in/alexandramorgan"
+            // twitter: "@AlexandraMorgan",
+            // linkedin: "linkedin.com/in/alexandramorgan"
           },
           slug: "Mayor"
         },
@@ -18,8 +18,8 @@ export const cabinet = [
           image: "/images/Vice-Chairman.jpeg",
           name: "Hon. Adetoun Ojora Adejiyan",
           socials: {
-            twitter: "@RajeshKumarVP",
-            linkedin: "linkedin.com/in/rajeshkumar"
+            // twitter: "@RajeshKumarVP",
+            // linkedin: "linkedin.com/in/rajeshkumar"
           },
           slug: "Adetoun"
         },
@@ -28,8 +28,8 @@ export const cabinet = [
           image: "/images/sec1.jpeg",
           name: "Hon. Rahamon Lanre Rasheed",
           socials: {
-            instagram: "@eleanorchenofficial",
-            linkedin: "linkedin.com/in/eleanorchen"
+            // instagram: "@eleanorchenofficial",
+            // linkedin: "linkedin.com/in/eleanorchen"
           },
           slug: "Rahmon"
         },
@@ -38,8 +38,8 @@ export const cabinet = [
           image: "/images/Supervisor-for-Agriculture-and-Social-Services-3.jpeg",
           name: "Hon. Aransi Ademola",
           socials: {
-            twitter: "@MarcusDefenseHQ",
-            linkedin: "linkedin.com/in/marcushayes"
+            // twitter: "@MarcusDefenseHQ",
+            // linkedin: "linkedin.com/in/marcushayes"
           },
           slug: "Ademola"
         },
@@ -48,8 +48,8 @@ export const cabinet = [
           image: "/images/super-enviroment-2.jpeg",
           name: "Hon. Modinat Oyefolu",
           socials: {
-            instagram: "@fatima.almansoori",
-            linkedin: "linkedin.com/in/fatimaalmansoori"
+            // instagram: "@fatima.almansoori",
+            // linkedin: "linkedin.com/in/fatimaalmansoori"
           },
           slug: "Modinat"
         },
@@ -58,8 +58,8 @@ export const cabinet = [
           image: "/images/Supervisor-for-Works-and-Infrastructure.jpeg",
           name: "Hon James Olaosebikan",
           socials: {
-            instagram: "@fatima.almansoori",
-            linkedin: "linkedin.com/in/fatimaalmansoori"
+            // instagram: "@fatima.almansoori",
+            // linkedin: "linkedin.com/in/fatimaalmansoori"
           },
           slug: "James"
         },
@@ -68,8 +68,8 @@ export const cabinet = [
           image: "/images/Supervisor-for-Transportation.jpeg",
           name: "Hon David Somotan",
           socials: {
-            instagram: "@fatima.almansoori",
-            linkedin: "linkedin.com/in/fatimaalmansoori"
+            // instagram: "@fatima.almansoori",
+            // linkedin: "linkedin.com/in/fatimaalmansoori"
           },
           slug: "David"
         },
@@ -78,8 +78,8 @@ export const cabinet = [
           image: "/images/Supervisor-for-Community-and-Chieftaincy.jpeg",
           name: "Hon. Nurudeen Muhammed",
           socials: {
-            instagram: "@fatima.almansoori",
-            linkedin: "linkedin.com/in/fatimaalmansoori"
+            // instagram: "@fatima.almansoori",
+            // linkedin: "linkedin.com/in/fatimaalmansoori"
           },
           slug: "Nurudeen"
         },
@@ -88,8 +88,8 @@ export const cabinet = [
           image: "/images/Supervisor-for-Budget-and-Planning.jpeg",
           name: "Hon. Sanni Mustapha Lanre",
           socials: {
-            instagram: "@fatima.almansoori",
-            linkedin: "linkedin.com/in/fatimaalmansoori"
+            // instagram: "@fatima.almansoori",
+            // linkedin: "linkedin.com/in/fatimaalmansoori"
           },
           slug: "Sanni"
         },
@@ -98,8 +98,8 @@ export const cabinet = [
           image: "/images/Supervisor-for-WAPA-WOEMEN-EMPOWERMENT-POVERTY-ALLEVIATION.jpeg",
           name: "Hon. Princess Bola Ariyo",
           socials: {
-            instagram: "@fatima.almansoori",
-            linkedin: "linkedin.com/in/fatimaalmansoori"
+            // instagram: "@fatima.almansoori",
+            // linkedin: "linkedin.com/in/fatimaalmansoori"
           },
           slug: "Bola"
         },
@@ -108,8 +108,8 @@ export const cabinet = [
           image: "/images/Supervisor-for-Education-and-Library-Services.jpeg",
           name: "Hon Rahman Ajao",
           socials: {
-            instagram: "@fatima.almansoori",
-            linkedin: "linkedin.com/in/fatimaalmansoori"
+            // instagram: "@fatima.almansoori",
+            // linkedin: "linkedin.com/in/fatimaalmansoori"
           },
           slug: "Rahman"
         },
@@ -118,8 +118,8 @@ export const cabinet = [
           image: "/images/S.-A.-Special-Duty1.jpeg",
           name: "Hon. Hammed Mayegun",
           socials: {
-            instagram: "@fatima.almansoori",
-            linkedin: "linkedin.com/in/fatimaalmansoori"
+            // instagram: "@fatima.almansoori",
+            // linkedin: "linkedin.com/in/fatimaalmansoori"
           },
           slug: "Hammed"
         },
@@ -128,8 +128,8 @@ export const cabinet = [
           image: "/images/SA-community-Health-2.jpeg",
           name: "Hon. Dr. Adeleye Raphael Oyedun",
           socials: {
-            instagram: "@fatima.almansoori",
-            linkedin: "linkedin.com/in/fatimaalmansoori"
+            // instagram: "@fatima.almansoori",
+            // linkedin: "linkedin.com/in/fatimaalmansoori"
           },
           slug: "Adeleye"
         },
@@ -214,8 +214,8 @@ export const cabinet = [
           image: "/images/CM1.jpeg",
           name: "Mr. Saheed Abiodun Azeez",
           socials: {
-            twitter: "@SophiaBennettCEO",
-            linkedin: "linkedin.com/in/sophiabennett"
+            // twitter: "@SophiaBennettCEO",
+            // linkedin: "linkedin.com/in/sophiabennett"
           },
           slug: "Saheed"
         },
@@ -224,8 +224,8 @@ export const cabinet = [
           image: "/images/Council-Treasurer1.jpg",
           name: "Mr. Oluyemisi OLUSANYA",
           socials: {
-            linkedin: "linkedin.com/in/derekoconnor",
-            instagram: "@derekocfo"
+            // linkedin: "linkedin.com/in/derekoconnor",
+            // instagram: "@derekocfo"
           },
           slug: "Oluyemisi"
         },
@@ -234,8 +234,8 @@ export const cabinet = [
           image: "/images/management/hr.jpg",
           name: "Mr Alabi Tunji Rafiu",
           socials: {
-            twitter: "@LilaPatelCOO",
-            linkedin: "linkedin.com/in/lilapatel"
+            // twitter: "@LilaPatelCOO",
+            // linkedin: "linkedin.com/in/lilapatel"
           },
           slug: "Alabi"
         },
@@ -244,8 +244,8 @@ export const cabinet = [
           image: "/images/management/Eng.oluseun.jpeg",
           name: "Eng. Oluwaseun Aduragbemi Hassan",
           socials: {
-            instagram: "@julianriveracmo",
-            linkedin: "linkedin.com/in/julianrivera"
+            // instagram: "@julianriveracmo",
+            // linkedin: "linkedin.com/in/julianrivera"
           },
           slug: "Oluwaseun"
         },
@@ -254,8 +254,8 @@ export const cabinet = [
           image: "/images/management/Babatunde.jpeg", 
           name: "Mr. Babatunde Olanrewaju Wasiu",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Babatunde"
         },
@@ -264,8 +264,8 @@ export const cabinet = [
           image: "/images/management/ict.jpg",
           name: "Abegunde Omowunmi Esther",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Omowunmi"
         },
@@ -274,18 +274,18 @@ export const cabinet = [
           image: "/images/management/iyabo.jpg",
           name: "Mrs Iyabo Oshodi",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Iyabo"
         },
         {
           role: "HOD Environment",
-          image: "/images/management/Environment.jpeg",
+          image: "/images/management/Environment.jpg",
           name: "Mr Ezekiel Obideyi",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Ezekiel"
         },
@@ -294,8 +294,8 @@ export const cabinet = [
           image: "/images/management/Budget.jpeg",
           name: "Mrs. Adekola Modupe Omowunmi",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Adekola"
         },
@@ -304,8 +304,8 @@ export const cabinet = [
           image: "/images/management/wapa.jpeg",
           name: "Mrs. Longe Kikelomo Viyon",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Longe"
         },
@@ -314,8 +314,8 @@ export const cabinet = [
           image: "/images/management/iyabo.jpg",
           name: " Mrs. Alabi Sikirat Iyabode",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "sikirat"
         },
@@ -324,8 +324,8 @@ export const cabinet = [
           image: "/images/management/Education.jpeg",
           name: "Mrs. Abraham Yetunde Funmilayo",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Abraham"
         },
@@ -334,8 +334,8 @@ export const cabinet = [
           image: "/images/management/Auditor.jpeg",
           name: "Mr. Okunola Oluyemi. A.",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Oluyemi"
         },
@@ -344,8 +344,8 @@ export const cabinet = [
           image: "/images/management/Medical.jpeg",
           name: "Dr Japhet A. OLUGBOGI",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Japhet"
         },
@@ -354,8 +354,8 @@ export const cabinet = [
           image: "/images/management/procure.jpg",
           name: "AWONUGA SHAKIRAT ADEFUNKE (MISS)",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Awonuga"
         },
@@ -364,8 +364,8 @@ export const cabinet = [
           image: "/images/management/legal.jpeg",
           name: "Barr. Olaleye Rafiu Olusola",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Olaleye"
         },
@@ -374,8 +374,8 @@ export const cabinet = [
           image: "/images/management/clerk.jpg",
           name: "Mrs. Odubona Saidat Adetayo",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Saidat"
         },
@@ -384,8 +384,8 @@ export const cabinet = [
           image: "/images/management/sanni.jpg",
           name: "SANNI GBENGA OLANREWAJU",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Sanni"
         },
@@ -394,8 +394,8 @@ export const cabinet = [
           image: "/images/management/Amukoko.jpg",
           name: "GIWA TAJUDEEN OLUWAKEMI",
           socials: {
-            twitter: "@NadiaTechLead",
-            linkedin: "linkedin.com/in/nadiavolkov"
+            // twitter: "@NadiaTechLead",
+            // linkedin: "linkedin.com/in/nadiavolkov"
           },
           slug: "Giwa"
         },
@@ -459,7 +459,7 @@ export const cabinet = [
           name: "HON. SALAUDEEN FATIMA TINUKE",
           socials: {
             twitter: "@OliviaGreystone",
-            linkedin: "linkedin.com/in/oliviagreystone"
+            // linkedin: "linkedin.com/in/oliviagreystone"
           },
           slug: "Fatima"
         },
@@ -478,8 +478,8 @@ export const cabinet = [
           image: "/images/legislature/COUNCILLOR-WARD-B-2.jpeg",
           name: "HON. SULAIMON WAHAB BOLAJOKO.",
           socials: {
-            twitter: "@AishaJohnsonHQ",
-            linkedin: "linkedin.com/in/aishajohnson"
+            // twitter: "@AishaJohnsonHQ",
+            // linkedin: "linkedin.com/in/aishajohnson"
           },
           slug: "Wahab"
         },
@@ -488,8 +488,8 @@ export const cabinet = [
           image: "/images/legislature/whip.jpeg",
           name: "HON ADEBAYO BLESSING ALABA",
           socials: {
-            instagram: "@ethanblackwoodofficial",
-            linkedin: "linkedin.com/in/ethanblackwood"
+            // instagram: "@ethanblackwoodofficial",
+            // linkedin: "linkedin.com/in/ethanblackwood"
           },
           slug:"BLESSING"
         },
@@ -498,8 +498,8 @@ export const cabinet = [
           image: "/images/legislature/Kazeem.jpeg",
           name: "HON. SULAIMON KAZEEM ANIMASHAUN",
           socials: {
-            twitter: "@GraceTakahashiDC",
-            linkedin: "linkedin.com/in/gracetakahashi"
+            // twitter: "@GraceTakahashiDC",
+            // linkedin: "linkedin.com/in/gracetakahashi"
           },
           slug: "Kazeem"
         },
@@ -508,8 +508,8 @@ export const cabinet = [
           image: "/images/legislature/tosin.jpeg",
           name: "HON. ILESANMI ELIJAH OLUWATOSIN",
           socials: {
-            twitter: "@GraceTakahashiDC",
-            linkedin: "linkedin.com/in/gracetakahashi"
+            // twitter: "@GraceTakahashiDC",
+            // linkedin: "linkedin.com/in/gracetakahashi"
           },
           slug: "Elijah"
         },
@@ -518,8 +518,8 @@ export const cabinet = [
           image: "/images/legislature/adelaja.jpeg",
           name: "HON. ADELEYE SULAIMON ADELAJA.",
           socials: {
-            twitter: "@GraceTakahashiDC",
-            linkedin: "linkedin.com/in/gracetakahashi"
+            // twitter: "@GraceTakahashiDC",
+            // linkedin: "linkedin.com/in/gracetakahashi"
           },
           slug: "Adeleye"
         },
@@ -537,8 +537,8 @@ export const cabinet = [
           image: "/images/key/OC.jpg",
           name: "DR ADEMUYIWA ELVIS",
           socials: {
-            twitter: "@DomHartAG",
-            linkedin: "linkedin.com/in/dominichart"
+            // twitter: "@DomHartAG",
+            // linkedin: "linkedin.com/in/dominichart"
           },
           slug: "Elvis"
         },
@@ -547,8 +547,8 @@ export const cabinet = [
           image: "/images/key/acct.jpg",
           name: "ADESOKAN TEMITOPE FELICIA",
           socials: {
-            instagram: "@leilafaroqadvisor",
-            linkedin: "linkedin.com/in/leilafaroq"
+            // instagram: "@leilafaroqadvisor",
+            // linkedin: "linkedin.com/in/leilafaroq"
           },
           slug: "Temitope"
         },
@@ -558,8 +558,8 @@ export const cabinet = [
           image: "/images/key/nulge.jpeg",
           name: "Com. Dickson Taofeek Bashua",
           socials: {
-            twitter: "@ClaudiaReyesDNI",
-            linkedin: "linkedin.com/in/claudiareyes"
+            // twitter: "@ClaudiaReyesDNI",
+            // linkedin: "linkedin.com/in/claudiareyes"
           },
           slug: "Dickson"
         },
@@ -568,8 +568,8 @@ export const cabinet = [
           image: "/images/key/CO.jpg",
           name: "OLIYIDE OLALEKAN SAHEED",
           socials: {
-            instagram: "@nathanielquinnfed",
-            linkedin: "linkedin.com/in/nathanielquinn"
+            // instagram: "@nathanielquinnfed",
+            // linkedin: "linkedin.com/in/nathanielquinn"
           },
           slug: "Olalekan"
         },
@@ -578,8 +578,8 @@ export const cabinet = [
           image: "/images/key/registrar.jpg",
           name: "WHENSU ABOSEDE MARY",
           socials: {
-            instagram: "@nathanielquinnfed",
-            linkedin: "linkedin.com/in/nathanielquinn"
+            // instagram: "@nathanielquinnfed",
+            // linkedin: "linkedin.com/in/nathanielquinn"
           },
           slug: "Abosede"
         },
@@ -588,8 +588,8 @@ export const cabinet = [
           image: "/images/key/treasurer.jpg",
           name: "BAMIDELE FATAI YUSUF",
           socials: {
-            instagram: "@nathanielquinnfed",
-            linkedin: "linkedin.com/in/nathanielquinn"
+            // instagram: "@nathanielquinnfed",
+            // linkedin: "linkedin.com/in/nathanielquinn"
           },
           slug: "Bamidele"
         },
@@ -598,8 +598,8 @@ export const cabinet = [
           image: "/images/key/tresurer2.jpg",
           name: "Omoteji Kafilat Ajoke ",
           socials: {
-            instagram: "@nathanielquinnfed",
-            linkedin: "linkedin.com/in/nathanielquinn"
+            // instagram: "@nathanielquinnfed",
+            // linkedin: "linkedin.com/in/nathanielquinn"
           },
           slug: "Kafilat"
         },
@@ -608,8 +608,8 @@ export const cabinet = [
           image: "/images/key/marriage-registrar.jpg",
           name: "GIWA OMOWUNMI BASIRA.",
           socials: {
-            instagram: "@nathanielquinnfed",
-            linkedin: "linkedin.com/in/nathanielquinn"
+            // instagram: "@nathanielquinnfed",
+            // linkedin: "linkedin.com/in/nathanielquinn"
           },
           slug: "Omomwunmi"
         },
@@ -650,7 +650,7 @@ export const cabinet = [
           name: "Ishaq Adeniyi Ijale",
           socials: {
             twitter: "@IsabellaUNAmb",
-            linkedin: "linkedin.com/in/isabellarossi"
+            // linkedin: "linkedin.com/in/isabellarossi"
           },
           slug: "Ishaq"
         },
@@ -660,7 +660,7 @@ export const cabinet = [
           name: "Kamaldeen Iyanda Abdulsalam",
           socials: {
             instagram: "@tylernguyenpress",
-            linkedin: "linkedin.com/in/tylernguyen"
+            // linkedin: "linkedin.com/in/tylernguyen"
           },
           slug: "white-house-press-secretary-tyler-nguyen"
         },
