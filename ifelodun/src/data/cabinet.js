@@ -271,7 +271,7 @@ export const cabinet = [
         },
         {
           role: "HOD Agric",
-          image: "/images/management/iyabo.jpg",
+          image: "/images/management/Iyabo.jpg",
           name: "Mrs Iyabo Oshodi",
           socials: {
             // twitter: "@NadiaTechLead",
@@ -290,7 +290,7 @@ export const cabinet = [
           slug: "Ezekiel"
         },
         {
-          role: "head of budget & planning",
+          role: "Head of budget & planning",
           image: "/images/management/Budget.jpeg",
           name: "Mrs. Adekola Modupe Omowunmi",
           socials: {
@@ -300,7 +300,7 @@ export const cabinet = [
           slug: "Adekola"
         },
         {
-          role: "head of women affairs & poverty alleviation (wapa)",
+          role: "Head of women affairs & poverty alleviation (wapa)",
           image: "/images/management/wapa.jpeg",
           name: "Mrs. Longe Kikelomo Viyon",
           socials: {
@@ -310,8 +310,8 @@ export const cabinet = [
           slug: "Longe"
         },
         {
-          role: "head of tourism & heritage maintenance",
-          image: "/images/management/iyabo.jpg",
+          role: "Head of tourism & heritage maintenance",
+          image: "/images/management/Alabi-Sikirat.jpeg",
           name: " Mrs. Alabi Sikirat Iyabode",
           socials: {
             // twitter: "@NadiaTechLead",
@@ -360,7 +360,7 @@ export const cabinet = [
           slug: "Awonuga"
         },
         {
-          role: "legal officer",
+          role: "Legal officer",
           image: "/images/management/legal.jpeg",
           name: "Barr. Olaleye Rafiu Olusola",
           socials: {

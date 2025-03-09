@@ -44,9 +44,9 @@ const Footer = () => {
                 info@ifelodunlcda.com
               </a>
             </li>
-            <li className="flex items-center gap-2 text-sm">
+            {/* <li className="flex items-center gap-2 text-sm">
               <Phone color="white" size={20} />
-            </li>
+            </li> */}
             <li>
               <span className="font-semibold text-white text-sm">The Council Secretariat</span>
               <p className=" mt-1 text-sm">3 Dispensary Street, Amukoko, Lagos</p>
@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
           <p className="text-sm mt-4">
             © {new Date().getFullYear()} Created by{" "}
-            <a href="#" className="text-blue-500">Ifelocdun Local Government Development Area </a>
+            <a href="#" className="text-white-500">Ifelocdun Local Government Development Area </a>
           </p>
         </div>
       </div>

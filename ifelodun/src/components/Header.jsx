@@ -3,6 +3,7 @@ import { ChevronDown, Clock, Mails } from "lucide-react";
 import Image from "next/image";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const navLinks = [
   {
@@ -127,7 +128,7 @@ const Header = () => {
           ))}
         </nav>
         <div className="flex items-center">
-          <Image src="/images/lagos.png" alt="Right Logo" width={60} height={60} />
+         <Link href="https://lagosstate.gov.ng/" target="blank"> <Image src="/images/lagos.png" alt="Right Logo" width={60} height={60} /></Link>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden text-gray-800 focus:outline-none ml-4"
