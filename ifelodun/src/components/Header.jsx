@@ -213,66 +213,68 @@ const [openSubMenuIndex, setOpenSubMenuIndex] = useState(null);
   
           {/* Desktop navigation (hidden on mobile) */}
           <nav className="hidden md:flex space-x-6">
-            {navLinks.map((link, index) => (
-              <div key={index} className="relative group">
-                {link.subLinks ? (
-                  <>
-                    <button className="flex items-center text-green-500 hover:text-green-600 focus:outline-none transition-all duration-200">
-                      {link.label} <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
-                    </button>
-                    <div
-                      className="absolute left-0 mt-2 w-48 bg-white shadow-xl rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 max-h-80 overflow-y-auto scrollbar-hide z-50"
-                      ref={scrollContainer}
-                      onMouseMove={handleMouseMove}
-                      onMouseLeave={() => {
-                        if (scrollTimeout.current) {
-                          cancelAnimationFrame(scrollTimeout.current);
-                        }
-                      }}
-                      onScroll={handleScrollIndicators}
-                    >
-                      {/* Scroll indicators */}
-                      <div
-                        ref={scrollTarget}
-                        className="pointer-events-none absolute inset-x-0 flex justify-between h-6"
-                        style={{
-                          '--top-opacity': '0',
-                          '--bottom-opacity': '0',
-                          transition: 'opacity 0.2s',
-                        }}
-                      >
-                        <div 
-                          className="w-full bg-gradient-to-b from-white to-transparent h-6"
-                          style={{ opacity: 'var(--top-opacity)' }}
-                        />
-                        <div 
-                          className="w-full bg-gradient-to-t from-white to-transparent h-6 bottom-0"
-                          style={{ opacity: 'var(--bottom-opacity)', position: 'absolute', bottom: 0 }}
-                        />
-                      </div>
+  {navLinks.map((link, index) => (
+    <div key={index} className="relative group">
+      {link.subLinks ? (
+        <>
+          <button className="flex items-center text-green-500 hover:text-green-600 focus:outline-none transition-all duration-200">
+            {link.label} <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
+          </button>
+          <div
+            className={`absolute left-0 mt-2 w-48 bg-white shadow-xl rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 
+            ${link.label === "Project" ? "max-h-[30rem]" : "max-h-80"} overflow-y-auto scrollbar-hide z-50`}
+            ref={scrollContainer}
+            onMouseMove={handleMouseMove}
+            onMouseLeave={() => {
+              if (scrollTimeout.current) {
+                cancelAnimationFrame(scrollTimeout.current);
+              }
+            }}
+            onScroll={handleScrollIndicators}
+          >
+            {/* Scroll indicators */}
+            <div
+              ref={scrollTarget}
+              className="pointer-events-none absolute inset-x-0 flex justify-between h-6"
+              style={{
+                '--top-opacity': '0',
+                '--bottom-opacity': '0',
+                transition: 'opacity 0.2s',
+              }}
+            >
+              <div 
+                className="w-full bg-gradient-to-b from-white to-transparent h-6"
+                style={{ opacity: 'var(--top-opacity)' }}
+              />
+              <div 
+                className="w-full bg-gradient-to-t from-white to-transparent h-6 bottom-0"
+                style={{ opacity: 'var(--bottom-opacity)', position: 'absolute', bottom: 0 }}
+              />
+            </div>
 
-                      <ul className="py-2">
-                        {link.subLinks.map((subLink, subIndex) => (
-                          <li key={subIndex}>
-                            <a
-                              href={subLink.href}
-                              className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-green-50 hover:text-green-700 transition-colors duration-200"
-                            >
-                              {subLink.label}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </>
-                ) : (
-                  <a href={link.href} className="text-green-500 hover:text-green-600 transition-colors duration-200">
-                    {link.label}
+            <ul className="py-2">
+              {link.subLinks.map((subLink, subIndex) => (
+                <li key={subIndex}>
+                  <a
+                    href={subLink.href}
+                    className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-green-50 hover:text-green-700 transition-colors duration-200"
+                  >
+                    {subLink.label}
                   </a>
-                )}
-              </div>
-            ))}
-          </nav>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </>
+      ) : (
+        <a href={link.href} className="text-green-500 hover:text-green-600 transition-colors duration-200">
+          {link.label}
+        </a>
+      )}
+    </div>
+  ))}
+</nav>
+
   
           {/* Mobile menu button and Lagos logo */}
           <div className="flex items-center gap-4">

@@ -645,8 +645,8 @@ export const cabinet = [
       slug: "non-cabinet-members",
       members: [
         {
-          role: "Special Assistance on project monitoring",
-          image: "/images/Non-cabinet/Ishaq.jpg",
+          role: "Special Assistant on project monitoring",
+          image: "/images/Non-cabinet/ishaq.jpg",
           name: "Ishaq Adeniyi Ijale",
           socials: {
             twitter: "@IsabellaUNAmb",
