@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Hero2 from "../components/Hero2";
 import Hero3 from "../components/Hero3";
-import Hero4 from "../components/Hero4";
+
 import { slides } from "../data/slides";
 import Map from "../components/Map";
 import Project from "../components/Project"

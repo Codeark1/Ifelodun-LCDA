@@ -85,7 +85,7 @@ export const cabinet = [
         },
         {
           role: "Supervisor For Budget and Planning",
-          image: "/images/Sanni.jpg",
+          image: "/images/Sanni.jpeg",
           name: "Hon. Sanni Mustapha Lanre",
           socials: {
             // instagram: "@fatima.almansoori",
